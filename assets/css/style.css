@@ -1468,6 +1468,10 @@ footer li {
         border-bottom: 1px solid #273138;
     }
 
+    .header-bg-img {
+        min-height: 75vh;
+        padding-bottom: unset;
+    }
     @keyframes img-rotate2 {
         0% {
             transform: rotate(0deg);
@@ -1631,11 +1635,6 @@ footer li {
     .s3-padding {
         padding-top: 102px;
         padding-bottom: 100px;
-    }
-
-    .header-bg-img {
-        min-height: 75vh;
-        padding-bottom: unset;
     }
 
     .bb-s10-5 {
