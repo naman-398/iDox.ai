@@ -1838,7 +1838,7 @@ footer li {
 
     .menu span:nth-child(1) {
         height: 2px;
-        width: 17px;
+        width: 15px;
         background-color: var(--white1);
         display: block;
         border-radius: 20px;
