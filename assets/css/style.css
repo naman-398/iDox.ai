@@ -297,7 +297,6 @@ ul {
     color: var(--white1);
 }
 
-
 .hero-section-big-box {
     max-width: 1437px;
     padding-left: 12px;
@@ -1469,9 +1468,10 @@ footer li {
     }
 
     .header-bg-img {
-        min-height: 75vh;
+        min-height: unset;
         padding-bottom: unset;
     }
+
     @keyframes img-rotate2 {
         0% {
             transform: rotate(0deg);
@@ -1750,6 +1750,10 @@ footer li {
 
     .footer-bg-color {
         padding-top: 110px;
+    }
+    
+    .header-bg-img {
+        min-height: 85vh;
     }
 }
 
