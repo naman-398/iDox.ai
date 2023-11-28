@@ -921,7 +921,7 @@ ul {
 
 /* footer */
 .footer-bg-color {
-    background: rgba(3, 137, 255, 0.08);
+    background: var(--nav-bg-color);
     padding-top: 35px;
 }
 
@@ -1751,7 +1751,7 @@ footer li {
     .footer-bg-color {
         padding-top: 110px;
     }
-    
+
     .header-bg-img {
         min-height: 85vh;
     }
@@ -1760,6 +1760,10 @@ footer li {
 @media (min-width:1200px) {
     .s5-slider .slick-track {
         margin-left: 10% !important;
+    }
+
+    .header-bg-img {
+        min-height: 70vh;
     }
 
     .s7-arrow3 {

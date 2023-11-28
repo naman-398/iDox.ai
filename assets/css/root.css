@@ -19,7 +19,9 @@
     --white1: #fbfdff;
     --white: #FFFFFF;
     --blue: #0389ff;
+    --nav-bg-color: rgba(3, 137, 255, 0.08);
 }
+
 
 .fs-xl {
     font-size: var(--fs-xl);
