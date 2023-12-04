@@ -29,5 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function openNav() {
     document.getElementById("navbar").classList.toggle("start-0");
     document.body.classList.toggle("overflow_hidden");
-    document.querySelector(".menu").classList.toggle("cross")
+    document.querySelector(".menu").classList.toggle("cross");
+    // document.querySelector(".nav-bar-bg").classList.toggle("backdrop-fliter");
+
+
 }

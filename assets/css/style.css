@@ -110,6 +110,10 @@
     background-color: #777;
 }
 
+.backdrop-fliter {
+    backdrop-filter: blur(16.5px);
+}
+
 .control.close {
     background-color: #e33;
     cursor: pointer;
