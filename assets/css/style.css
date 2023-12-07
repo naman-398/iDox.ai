@@ -333,6 +333,8 @@ ul {
 .slider1-img {
     filter: grayscale(100%) !important;
     mix-blend-mode: multiply;
+    height: 75px;
+    object-fit: cover;
     margin: auto;
 }
 
@@ -340,6 +342,8 @@ ul {
     filter: grayscale(100%) !important;
     mix-blend-mode: multiply;
     max-width: 130px;
+    height: 75px;
+    object-fit: cover;
     margin: auto;
 }
 
