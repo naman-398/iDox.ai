@@ -1,6 +1,7 @@
 // preloder
 setTimeout(() => {
   document.getElementById("preloder").classList.add("d-none");
+  document.getElementById("html").classList.add("overflow_x_hidden")
   document.body.classList.remove("overflow-hidden");
 }, 2500);
 //back to top
