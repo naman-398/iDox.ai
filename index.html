@@ -204,16 +204,16 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item" data-aos="fade-up">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
+                                <button class="accordion-button collapsed fs-xl fw-xl color-primary position-relative" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     Time-Saving AI Integrations
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec
+                                <div class="accordion-body pt-1">Posuere ultrices aliquet risus malesuada viverra nec
                                     praesent. Sed nisl facilisi augue.
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                 <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false"
                                     aria-controls="flush-collapsetwo">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-3">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     Enterprise-Level Scalability
                                 </button>
                             </h2>
@@ -240,7 +240,7 @@
                                 <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapsethree"
                                     aria-expanded="false" aria-controls="flush-collapsethree">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-3">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     Cloud-Based For Multiple Locations
                                 </button>
                             </h2>
@@ -256,7 +256,7 @@
                                 <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false"
                                     aria-controls="flush-collapsefour">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-3">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     Collaborative Work Among Teams
                                 </button>
                             </h2>
@@ -272,7 +272,7 @@
                                 <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false"
                                     aria-controls="flush-collapsefive">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-3">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     Proactive Risk Assessment Reports
                                 </button>
                             </h2>
@@ -288,7 +288,7 @@
                                 <button class="accordion-button collapsed fs-xl fw-xl color-primary" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false"
                                     aria-controls="flush-collapsesix">
-                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-3">
+                                    <img src="./assets/images/clock-img.webp" alt="clock" class="d-none px-2 position-clock">
                                     High Accuracy To Avoid Oversights
                                 </button>
                             </h2>
@@ -1151,6 +1151,17 @@
             autoplay: true,
             speedAutoplay: 0,
             responsive: [
+            {
+                    breakpoint: 1660,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        centerMode: true,
+                        centerPadding: '15%',
+                    }
+                },
                 {
                     breakpoint: 1440,
                     settings: {
@@ -1159,7 +1170,7 @@
                         infinite: true,
                         dots: true,
                         centerMode: true,
-                        centerPadding: '15%',
+                        centerPadding: '10%',
                     }
                 },
                 {

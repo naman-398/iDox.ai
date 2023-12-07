@@ -472,7 +472,7 @@ ul {
     padding: 0 !important;
     color: var(--white1) !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
-    padding: 20px !important;
+    padding: 5px 20px 20px 99px !important;
     font-weight: 400 !important;
     opacity: 0.7 !important;
 }
@@ -494,7 +494,7 @@ ul {
 
 .accordion-button:not(.collapsed) {
     color: var(--blue) !important;
-    padding: 15px 15px 0px 15px !important;
+    padding: 15px 15px 0px 99px !important;
     transition: all 300ms linear !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: var(--fs-2sm) !important;
@@ -509,7 +509,8 @@ ul {
     border: 2px solid transparent !important;
     border-radius: 10px !important;
     margin-bottom: 20px !important;
-    background: #021B31 !important;
+   background: rgba(3, 137, 255, 0.12) !important;
+    backdrop-filter: blur(12.5px) !important;
 }
 
 /* section4 */
@@ -1007,26 +1008,6 @@ footer li {
     left: 0;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 7.5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: var(--black);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--blue);
-    border-radius: 40px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--white1);
-}
 
 /* animation */
 .s2-img {
@@ -1274,7 +1255,11 @@ footer li {
     top: -26%;
     animation: elipse 8s infinite forwards alternate;
 }
-
+.position-clock{
+    position: absolute;
+    top: 44%;
+    left: 2%;
+}
 @media (min-width:576px) {
     .s8-col1-border {
         border-right: 1px solid #273138;
@@ -1628,7 +1613,7 @@ footer li {
     }
 
     .accordion-body {
-        padding: 0px 50px 20px 116px !important;
+        padding: 5px 50px 35px 99px !important;
     }
 
     .s6-padding {
