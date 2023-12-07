@@ -327,7 +327,7 @@ ul {
 }
 
 .opacity-7 {
-  opacity: 0.7;
+  opacity: 0.7 !important;
 }
 
 .hero-slider .slick-prev:before,
@@ -469,7 +469,7 @@ ul {
 }
 
 .opacity-8 {
-  opacity: 0.8;
+  opacity: 0.8 !important;
 }
 
 .gap-10 {
@@ -982,7 +982,7 @@ ul {
 }
 
 .opacity-6 {
-  opacity: 0.6;
+  opacity: 0.6 !important;
 }
 
 .pb-95 {
@@ -1117,6 +1117,7 @@ footer li {
 
 .s10-elipse3 {
   position: absolute;
+  z-index: 0;
   max-width: 381.479px;
   max-height: 395.788px;
   width: 100%;

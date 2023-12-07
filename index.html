@@ -437,9 +437,9 @@
         </div>
     </section>
     <!-- section7 -->
-    <section class="s7-padding position-relative">
-        <div class="s7-elipse d-none d-sm-block"></div>
-        <div class="container">
+    <section class="s7-padding position-relative z-1">
+        <div class="s7-elipse d-none d-sm-block z-0"></div>
+        <div class="container position-relative z-1">
             <h2 class="fw-medium fs-1lg color-white1 plus-jakarta-sans mb-0 text-center">How it works
             </h2>
             <p class="plus-jakarta-sans fs-1sm color-white1 fw-normal opacity-7 pt-2 text-center">Only 2 minutes
@@ -542,8 +542,8 @@
                             data-aos="fade-down">learn more</button>
                     </div>
                 </div>
-                <div class="col-md-6 col-12  position-relative">
-                    <img src="./assets/images/s9-img.webp" alt="s9-img" class="w-100 s9-img">
+                <div class="col-md-6 col-12  position-relative z-1">
+                    <img src="./assets/images/s9-img.webp" alt="s9-img" class="w-100 s9-img position-relative z-1">
                     <div class="s10-elipse3 d-none d-sm-block d-md-none d-xl-block"></div>
                 </div>
             </div>
@@ -1159,11 +1159,33 @@
                         infinite: true,
                         dots: true,
                         centerMode: true,
-                        centerPadding: '15%',
+                        centerPadding: '20%',
+                    }
+                },
+            {
+                    breakpoint: 1500,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        centerMode: true,
+                        centerPadding: '18%',
                     }
                 },
                 {
-                    breakpoint: 1440,
+                    breakpoint: 1455,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        centerMode: true,
+                        centerPadding: '14%',
+                    }
+                },
+                {
+                    breakpoint: 1350,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
